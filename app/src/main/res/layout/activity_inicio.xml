@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_inicio">
+
+    <View
+        android:id="@+id/rectangle_7"
+        android:layout_width="411dp"
+        android:layout_height="158dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle_7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnVerPacientes"
+        android:layout_width="345dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#21B689"
+        android:text="VER PACIENTES "
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <View
+        android:id="@+id/ellipse_21"
+        android:layout_width="71dp"
+        android:layout_height="69dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ellipse_21"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <Button
+        android:id="@+id/btnAgregarPacientes"
+        android:layout_width="359dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#21B689"
+        android:text="AGREGAR PACIENTES "
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <View
+        android:id="@+id/ellipse_21"
+        android:layout_width="71dp"
+        android:layout_height="69dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ellipse_21"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <Button
+        android:id="@+id/btnAgregarMedicamentos"
+        android:layout_width="359dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#21B689"
+        android:text="AGREGAR MEDICAMENTOS "
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <View
+        android:id="@+id/ellipse_21"
+        android:layout_width="71dp"
+        android:layout_height="69dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ellipse_21"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="BIENVENIDA"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="44dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/baseline_remove_red_eye_24"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        app:srcCompat="@drawable/baseline_add_circle_outline_24"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="48dp"
+        android:layout_height="34dp"
+        app:srcCompat="@drawable/baseline_medical_information_24"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
